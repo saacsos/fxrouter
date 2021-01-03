@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.SecondPageController">
+   <children>
+      <Label layoutX="248.0" layoutY="81.0" text="This is Second Page" textFill="#2f00ff">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="button" layoutX="304.0" layoutY="172.0" mnemonicParsing="false" text="Go to First Page">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

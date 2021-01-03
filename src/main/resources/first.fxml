@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.FirstPageController">
+   <children>
+      <Label layoutX="274.0" layoutY="98.0" text="This is First Page">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="308.0" layoutY="196.0" mnemonicParsing="false" onAction="#handleGoToSecondPageButton" text="Go To Page 2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="195.0" layoutY="400.0" text="Type Something...">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="342.0" layoutY="394.0" fx:id="input">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="266.0" layoutY="454.0" mnemonicParsing="false" onAction="#handleGoToThirdPageButton" text="Go To Page 3 with Data">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
